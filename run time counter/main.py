@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 def sayaç(toplam_saniye):
     if toplam_saniye >= 0:
         saat, kalan = divmod(toplam_saniye, 3600)
@@ -11,7 +10,6 @@ def sayaç(toplam_saniye):
         window.after(1000, sayaç, toplam_saniye - 1)
     else:
         label.config(text="Süre doldu!")
-
 
 window = Tk()
 window.title("Zaman Sayacı")
