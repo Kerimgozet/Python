@@ -12,6 +12,7 @@ def sayaç(toplam_saniye):
     else:
         label.config(text="Süre doldu!")
 
+
 window = Tk()
 window.title("Zaman Sayacı")
 window.geometry("400x200")
