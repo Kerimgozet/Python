@@ -5,7 +5,6 @@ def sayaç(toplam_saniye):
         saat, kalan = divmod(toplam_saniye, 3600)
         dakika, saniye = divmod(kalan, 60)
         zaman_str = f"{saat:02d}:{dakika:02d}:{saniye:02d}"
-
         label.config(text=zaman_str)
         window.after(1000, sayaç, toplam_saniye - 1)
     else:
