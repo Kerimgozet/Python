@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 def sayaç(toplam_saniye):
     if toplam_saniye >= 0:
         saat, kalan = divmod(toplam_saniye, 3600)
